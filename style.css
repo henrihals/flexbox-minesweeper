@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+/*-------------------------container 1----------------------*/
+#container1 {
+    border: 1px solid black;
+    width: 296px;
+    height: 296px;
+}
+/*-------------------------container 2----------------------*/
+#container2 {
+    width: 276px;
+    height: 276px;
+    border: 10px solid #CBCBCB;
+}
+/*-------------------------container 3----------------------*/
+#container3 {
+    width: 256px;
+    height: 256px;
+    border: 10px solid #8F8D8F;
+    border-right: 10px solid #E8E8E8;
+    border-bottom: 10px solid #E8E8E8;
+}
+/*----------------------------case 1------------------------*/
+.case1 {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    font-size: 30px;
+    color: #0E2FFF;
+    font-weight: bold;
+    background-color: #CBCBCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+/*----------------------------case 2------------------------*/
+.case2 {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    font-size: 30px;
+    color: #008F00;
+    font-weight: bold;
+    background-color: #CBCBCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+/*----------------------------case 3------------------------*/
+.case3 {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    font-size: 30px;
+    color: #FF2900;
+    font-weight: bold;
+    background-color: #CBCBCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+/*--------------------------case vide-----------------------*/
+.case_vide {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    background-color: #CBCBCB;
+    display: flex;
+    float: left;
+}
+/*------------------------ case pleine----------------------*/
+.case_pleine {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    background-color: #CBCBCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+/*------------------------- case bombe----------------------*/
+.case_bombe {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    background-color: #CBCBCB;
+    display: flex;
+    float: left;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
