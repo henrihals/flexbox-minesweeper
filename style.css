@@ -41,6 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*---------------------------body--------------------------*/
 body {
     height: 100vh;
     display: flex;
@@ -48,7 +49,6 @@ body {
     justify-content: center;
     margin: 0 auto;
     padding: 0 auto;
-
 }
 /*-------------------------container 1----------------------*/
 #container1 {
@@ -110,12 +110,6 @@ body {
     text-align: center;
 }
 /*--------------------------case vide-----------------------*/
-.case_vide:hover {
-    width: 30px;
-    height: 30px;
-    border: 1px dotted black;
-    background-color: #CBCBCB;
-}
 .case_vide {
     width: 30px;
     height: 30px;
@@ -125,11 +119,79 @@ body {
     align-items: center;
 }
 /*------------------------ case pleine----------------------*/
+.case_pleine:hover {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    background: url("images/casevide.jpg");
+    justify-content: center;
+    align-items: center;
+}
 .case_pleine {
     width: 30px;
     height: 30px;
     border: 1px dotted black;
-    background-color: #CBCBCB;
+    background: url("images/Case_pleine.jpg");
+    justify-content: center;
+    align-items: center;
+}
+.case_pleine1:hover {
+    width: 30px;
+    height: 30px;
+    background: url("images/1.jpg");
+    justify-content: center;
+    align-items: center;
+}
+.case_pleine1 {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    background: url("images/Case_pleine.jpg");
+    justify-content: center;
+    align-items: center;
+}
+.case_pleine2:hover {
+    width: 30px;
+    height: 30px;
+    background: url("images/2.jpg");
+    justify-content: center;
+    align-items: center;
+}
+.case_pleine2 {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    background: url("images/Case_pleine.jpg");
+    justify-content: center;
+    align-items: center;
+}
+.case_pleine3:hover {
+    width: 30px;
+    height: 30px;
+    background: url("images/3.jpg");
+    justify-content: center;
+    align-items: center;
+}
+.case_pleine3 {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    background: url("images/Case_pleine.jpg");
+    justify-content: center;
+    align-items: center;
+}
+.case_pleinebombe:hover {
+    width: 30px;
+    height: 30px;
+    background: url("images/bombepaint.jpg");
+    justify-content: center;
+    align-items: center;
+}
+.case_pleinebombe {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    background: url("images/Case_pleine.jpg");
     justify-content: center;
     align-items: center;
 }
